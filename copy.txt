@@ -1,0 +1,25 @@
+<html>
+       <head>
+             <title> My search engine </title>
+			   <link rel="stylesheet" type="text/css" href="style.css" />
+
+       </head>
+       <body>
+	   <div align="right">
+				<form action = 'login.php' method = 'post' class="frm" >
+					 <input type = 'submit'  name = 'submit' value = 'Login' class="submit" >
+				 </form>
+		</div>
+	   <div id ="middle" align="center">
+				<form action = 'search.php' method = 'GET' class="frm" >
+                           <h1 > SEARCH HERE </h1 >
+                           <input type = 'text' size='90' name = 'search'/ >
+                           <input type = 'submit' name = 'submit' value = 'Search'class="submit" >
+             </form >
+			 </div>
+       </body >
+</html > 
+
+
+
+
